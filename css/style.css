@@ -229,9 +229,6 @@ header .container nav ul li a:hover {
   transform: scale(1.02, 1.02);
   transition: 0.2s ease-in-out;
 }
-.projects .container .projects_wrap article:last-of-type {
-  margin-right: 0px;
-}
 .projects .container .projects_wrap article .projects_img {
   max-width: 300px;
 }

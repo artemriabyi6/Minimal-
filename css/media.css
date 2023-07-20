@@ -1,0 +1,102 @@
+@media (max-width: 940px){
+.brands .container .brands_flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+    .brands .container .brands_flex article{
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+
+
+
+    .projects .container .projects_wrap{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .projects .container .projects_wrap article:last-of-type{
+        display: none;
+    }
+
+
+
+    .our_team .container .stuff_flex{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .our_team .container .stuff_flex article{
+        margin-bottom: 30px;
+    }
+}
+    
+
+@media (max-width: 767px) {
+    header .container nav{
+        display: none;
+    }
+
+    .about .container .about_flex{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .about .container .about_flex article{
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 632px) {
+    .brands .container .brands_flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .brands .container .brands_flex article{
+        margin-right: 0;
+    }
+    .projects .container .projects_wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects .container .projects_wrap article {
+        margin-right: 0;
+    }
+    .our_team{
+        padding: 0 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .reviews .container .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews .container .cards article{
+        padding: 0 0;
+        margin-bottom: 20px;
+        border-right: 0px;
+    }
+    .about .container .about_flex  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .container .about_flex article{
+        margin-right: 0;
+    }
+
+
+    footer .container {
+        padding: 0 88px;
+    }
+    footer .container form button{
+        padding: 10px 25px;
+    }
+}
