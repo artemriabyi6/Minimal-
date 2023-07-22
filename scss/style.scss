@@ -56,6 +56,7 @@ header{
                         font-weight: 400;
                         line-height: 20px;
                         text-transform: uppercase;
+                        transition: 0.2s ease-in-out;
                         &:hover{
                             display: inline-block;
                             text-decoration: underline yellow 2px;
@@ -137,6 +138,7 @@ header{
             font-style: normal;
             font-weight: 400;
             line-height: 20px;
+            transition: 0.2s ease-in-out;
             cursor: pointer;
                 &:hover{
                     background-color: azure;
@@ -177,9 +179,9 @@ header{
                 background-color: #F5F5F5;
                 padding: 50px 80px;
                 margin-bottom: 40px;
+                transition: 0.3s ease-in-out;
                 &:hover{
                     transform: scale(1.03, 1.03);
-                    transition: 0.3s ease-in-out;
                 }
                }
                h4{
@@ -238,12 +240,9 @@ header{
                 flex-direction: column;
                 margin-right: 20px;
                 margin-bottom: 20px;
+                transition: 0.2s ease-in-out;
                 &:hover{
                     transform: scale(1.02, 1.02);
-                    transition: 0.2s ease-in-out;
-                }
-                &:last-of-type{
-                
                 }
                 .projects_img{
                 max-width: 300px;
@@ -536,11 +535,11 @@ padding: 70px 0;
             background-color: black;
             border: 1px solid #8BCAC3;
             margin-bottom: 40px;
-                &:hover{
             cursor: pointer;
+            transition: 0.3s ease-in-out;
+                &:hover{
             background-color: #8BCAC3;
             color: white;
-            transition: 0.3s ease-in-out;
                 }
             }
         }
@@ -554,7 +553,7 @@ padding: 70px 0;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
-        line-height: 22px; /* 146.667% */
+        line-height: 22px; 
       }
     }
 }
